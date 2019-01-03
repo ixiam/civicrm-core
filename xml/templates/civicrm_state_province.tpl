@@ -783,7 +783,7 @@ INSERT INTO civicrm_state_province (id, country_id, abbreviation, name) VALUES
 (2148, 1048, "ATL", "Atlántico"),
 (2149, 1048, "BOL", "Bolívar"),
 (2150, 1048, "BOY", "Boyacá"),
-(2151, 1048, "CAL", "Caldea"),
+(2151, 1048, "CAL", "Caldas"),
 (2152, 1048, "CAQ", "Caquetá"),
 (2153, 1048, "CAS", "Casanare"),
 (2154, 1048, "CAU", "Cauca"),
@@ -4123,4 +4123,7 @@ INSERT INTO civicrm_state_province (id, country_id, abbreviation, name) VALUES
 (NULL, 1080, "09", "Woleu-Ntem"),
 
 -- dev/Core#131 Missing UK State
-(NULL, 1226, "MON", "Monmouthshire");
+(NULL, 1226, "MON", "Monmouthshire"),
+
+-- missing state for Colombia
+(NULL, 1048, "HUI", "Huila");
