@@ -48,3 +48,4 @@ Installing the latest developmental code requires some [special steps](http://wi
 
 Report all issues to CiviCRM via GitLab:
 https://lab.civicrm.org
+ 
