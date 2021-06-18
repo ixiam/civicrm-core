@@ -705,9 +705,11 @@ LEFT JOIN civicrm_contribution_soft ON civicrm_contribution_soft.contribution_id
     // If a custom field was passed as a param,
     // we'll take it into account.
     $customSearchFields = [];
-    foreach ($params as $name => $param) {
-      if (substr($name, 0, 6) == 'custom') {
-        $searchFields[] = $name;
+    if (!empty($params)) {
+      foreach ($params as $name => $param) {
+        if (substr($name, 0, 6) == 'custom') {
+          $searchFields[] = $name;
+        }
       }
     }
 
