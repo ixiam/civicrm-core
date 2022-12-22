@@ -231,7 +231,7 @@ class CRM_Member_Form_Task_Batch extends CRM_Member_Form_Task {
       unset($value['membership_status']);
       foreach ($dates as $val) {
         if (isset($value[$val])) {
-          $value[$val] = CRM_Utils_Date::processDate($value[$val]);
+          $value[$val] = CRM_Utils_Date::processDate($value[$val], NULL, TRUE);
         }
       }
       if (empty($customFields)) {
